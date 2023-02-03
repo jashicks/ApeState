@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApeState</string>
+    <string name="welcome_to_apestate">Welcome to ApeState!</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="next">next</string>
+    <string name="click_the_next_button_to_learn_about_some_apes">click the next button to learn about some apes</string>
+</resources>
