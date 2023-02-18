@@ -16,4 +16,8 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="todo2">TODO</string>
     <string name="apePrompt">Click on an image below to learn more about an ape!</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi vitae suscipit tellus mauris a diam. Volutpat odio facilisis mauris sit amet massa vitae. Ornare quam viverra orci sagittis eu volutpat odio. In vitae turpis massa sed elementum. Orci ac auctor augue mauris. Varius duis at consectetur lorem donec massa sapien faucibus et. Sem viverra aliquet eget sit. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Sem integer vitae justo eget magna. Nunc scelerisque viverra mauris in. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Sagittis vitae et leo duis ut diam quam nulla.
+
+Sapien faucibus et molestie ac. Odio euismod lacinia at quis risus sed vulputate odio ut. Turpis massa sed elementum tempus egestas. Luctus accumsan tortor posuere ac ut consequat semper viverra. Cras pulvinar mattis nunc sed blandit libero volutpat. Fermentum posuere urna nec tincidunt. Elit duis tristique sollicitudin nibh sit amet commodo. Sed vulputate odio ut enim blandit volutpat. Mattis molestie a iaculis at erat pellentesque adipiscing. Faucibus turpis in eu mi. Rhoncus mattis rhoncus urna neque viverra. Nulla aliquet porttitor lacus luctus. Egestas purus viverra accumsan in nisl nisi scelerisque eu. Hac habitasse platea dictumst vestibulum rhoncus. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius.</string>
+    <string name="about">ABOUT</string>
 </resources>

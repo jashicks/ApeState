@@ -22,4 +22,10 @@
     <style name="Theme.ApeState.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.ApeState.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyImageViewStyle">
+        <item name="android:layout_width">165dp</item>
+        <item name="android:layout_height">165dp</item>
+    </style>
+
 </resources>
