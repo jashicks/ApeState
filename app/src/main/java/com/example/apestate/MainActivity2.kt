@@ -1,11 +1,12 @@
 package com.example.apestate
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.apestate.databinding.ActivityMain2Binding
 
 class MainActivity2 : AppCompatActivity() {
@@ -19,7 +20,12 @@ class MainActivity2 : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //setSupportActionBar(binding.toolbar)
+        val myImageButton = findViewById<ImageButton>(R.id.chimpButton)
+        myImageButton.setOnClickListener {
+            val intent = Intent(this, ChimpActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 
@@ -28,4 +34,5 @@ class MainActivity2 : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
 }

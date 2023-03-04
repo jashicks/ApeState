@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item?.itemId == R.id.action_about){
+        if (item.itemId == R.id.action_about){
             AboutActivity.start(this)
             return true
         }

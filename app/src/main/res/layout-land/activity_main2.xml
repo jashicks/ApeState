@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:text="@string/apePrompt"
             android:textAlignment="center"
+            android:textColor="@color/purple_200"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -39,49 +40,59 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.153" />
 
-        <ImageView
-            android:id="@+id/imageView"
+        <ImageButton
+            android:id="@+id/chimpButton"
             style="@style/MyImageViewStyle"
-            android:layout_marginTop="64dp"
+            android:layout_width="138dp"
+            android:layout_height="154dp"
+            android:layout_marginStart="208dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
             android:src="@drawable/chimpanzee"
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
-            app:layout_constraintEnd_toStartOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="0.936"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
-            app:layout_constraintVertical_bias="0.876" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView5"
             style="@style/MyImageViewStyle"
+            android:layout_width="159dp"
+            android:layout_height="144dp"
+            android:layout_marginEnd="172dp"
             android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
             android:src="@drawable/gibbon"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/imageView4"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/imageView4" />
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView4"
             style="@style/MyImageViewStyle"
-            android:layout_marginTop="66dp"
-            android:layout_marginEnd="188dp"
+            android:layout_width="152dp"
+            android:layout_height="153dp"
+            android:layout_marginEnd="180dp"
+            android:background="@null"
+            android:scaleType="centerInside"
             android:src="@drawable/bonobo"
-            app:layout_constraintBottom_toTopOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
-            app:layout_constraintVertical_bias="0.88" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView3"
             style="@style/MyImageViewStyle"
-            android:layout_marginStart="16dp"
+            android:layout_width="140dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="208dp"
             android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
             android:src="@drawable/orangatuan"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/imageView"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
