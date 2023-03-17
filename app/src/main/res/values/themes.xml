@@ -28,4 +28,11 @@
         <item name="android:layout_height">165dp</item>
     </style>
 
+    <style name="Theme.ApeState.MyActionBarTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your action bar here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+    </style>
+
+
 </resources>

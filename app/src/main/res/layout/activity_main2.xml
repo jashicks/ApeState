@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,7 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:popupTheme="@style/Theme.ApeState.PopupOverlay" />
+        app:popupTheme="@style/Theme.ApeState.PopupOverlay"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -47,8 +49,8 @@
             android:scaleType="centerCrop"
             android:src="@drawable/chimpanzee"
             android:background="@null"
-            app:layout_constraintBottom_toTopOf="@+id/imageView3"
-            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintBottom_toTopOf="@+id/orangutanButton"
+            app:layout_constraintEnd_toStartOf="@+id/bonoboButton"
             app:layout_constraintHorizontal_bias="0.246"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
@@ -63,13 +65,13 @@
             android:src="@drawable/gibbon"
             android:background="@null"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/bonoboButton"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/bonoboButton"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageView4"
+            android:id="@+id/bonoboButton"
             style="@style/MyImageViewStyle"
             android:layout_marginTop="66dp"
             android:layout_marginEnd="16dp"
@@ -83,7 +85,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageView3"
+            android:id="@+id/orangutanButton"
             style="@style/MyImageViewStyle"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="160dp"

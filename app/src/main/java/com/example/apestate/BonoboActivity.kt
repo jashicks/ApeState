@@ -5,27 +5,26 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.apestate.R.id.nav_host_fragment_content_chimp
-import com.example.apestate.databinding.ActivityChimpBinding
+import com.example.apestate.databinding.ActivityBonoboBinding
 
-class ChimpActivity : AppCompatActivity() {
+class BonoboActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityChimpBinding
+    private lateinit var binding: ActivityBonoboBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityChimpBinding.inflate(layoutInflater)
+        binding = ActivityBonoboBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding.toolbarBonobo)
 
-        val navController = findNavController(nav_host_fragment_content_chimp)
+        val navController = findNavController(R.id.nav_host_fragment_content_bonobo)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setSupportActionBar(findViewById(R.id.toolbar_bonobo))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
         title = ""

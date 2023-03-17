@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApeState"
         tools:targetApi="31">
+
+        <activity
+            android:name=".BonoboActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bonobo"
+            android:theme="@style/Theme.ApeState.NoActionBar" />
         <activity
             android:name=".ChimpActivity"
             android:exported="false"

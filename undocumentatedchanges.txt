@@ -1,0 +1,11 @@
+- Fixed the look of each activity in the landscape orientation [X]
+
+- Added padding to the textview object for the about acitivity [X]
+
+- recyclerview []
+
+- Image as buttons []
+
+- Change about information []
+
+- add back button for respective activites []
