@@ -37,4 +37,5 @@ Thank you for using my app, ApeState!
     <string name="orangutan">Orangutan</string>
     <string name="pongo_abelii">Pongo abelii</string>
     <string name="title_activity_orangutan">OrangutanActivity</string>
+    <string name="pongo_pygmaeus">Pongo Pygmaeus</string>
 </resources>

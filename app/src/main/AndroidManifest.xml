@@ -13,6 +13,11 @@
         tools:targetApi="31">
 
         <activity
+            android:name=".OrangutanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_orangutan"
+            android:theme="@style/Theme.ApeState.NoActionBar" />
+        <activity
             android:name=".BonoboActivity"
             android:exported="false"
             android:label="@string/title_activity_bonobo"
