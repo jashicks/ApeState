@@ -9,4 +9,7 @@
     <string name="second_bonobo_picture">second bonobo picture</string>
     <string name="pongo_abelii">Pongo abelii</string>
     <string name="pongo_pygmaeus">Pongo Pygmaeus</string>
+    <string name="second_gibbon_picture">second gibbon picture</string>
+    <string name="gibbon">Gibbon</string>
+    <string name="hylobatidae">Hylobatidae</string>
 </resources>

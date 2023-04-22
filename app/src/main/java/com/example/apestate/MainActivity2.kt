@@ -33,6 +33,12 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val gibbonImageButton = binding.gibbonButton
+        gibbonImageButton?.setOnClickListener {
+            val intent = Intent(this, GibbonActivity::class.java)
+            startActivity(intent)
+        }
+
         setSupportActionBar(findViewById(R.id.toolbar))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back_arrow)
