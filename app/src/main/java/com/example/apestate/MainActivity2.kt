@@ -2,6 +2,7 @@ package com.example.apestate
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.apestate.databinding.ActivityMain2Binding
 
@@ -45,8 +46,13 @@ class MainActivity2 : AppCompatActivity() {
         title = ""
 
     }
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

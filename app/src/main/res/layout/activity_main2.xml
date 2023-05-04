@@ -51,6 +51,7 @@
             android:background="@null"
             app:layout_constraintBottom_toTopOf="@+id/orangutanButton"
             app:layout_constraintEnd_toStartOf="@+id/bonoboButton"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintHorizontal_bias="0.246"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
@@ -66,6 +67,7 @@
             android:background="@null"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/bonoboButton"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/bonoboButton"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -75,10 +77,11 @@
             style="@style/MyImageViewStyle"
             android:layout_marginTop="66dp"
             android:layout_marginEnd="16dp"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
             android:src="@drawable/bonobo"
             android:background="@null"
             app:layout_constraintBottom_toTopOf="@+id/gibbonButton"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
             app:layout_constraintVertical_bias="0.0"
@@ -93,10 +96,12 @@
             android:src="@drawable/orangatuan"
             android:background="@null"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="@+id/chimpButton"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="SpeakableTextPresentCheck" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
